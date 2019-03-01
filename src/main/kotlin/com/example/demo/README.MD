@@ -1,0 +1,4 @@
+- This demo was initially download from [spring initializr](https://start.spring.io/)
+- The only added files is `City*` and  `README.MD`
+- This demo project the idea how to convert Stream (from Spring Data JPA) to Flux (in Server component), but all ideas failed
+- I'm wondering WHY...... 

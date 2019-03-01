@@ -19,7 +19,11 @@ class CityServiceImpl(val cityRepository: CityRepository): CityService {
             }
         }
 
-        //idea 2 FAIL
+        //idea 2 & 3 FAIL
+//        New Exception:
+//        could not advance using next()
+//        org.hibernate.exception.GenericJDBCException: could not advance using next()
+
 //        return cityRepository.findAllCities().toFlux()
 
         //idea 3 FAIL

@@ -7,7 +7,7 @@ import reactor.core.publisher.Flux
 @Service
 class CityServiceImpl(val cityRepository: CityRepository): CityService {
 
-    @Transactional
+    @Transactional(readOnly = true)
     override fun findAll(): Flux<City> {
 
         //idea 1 FAIL
